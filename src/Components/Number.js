@@ -15,7 +15,7 @@ fetch('http://numbersapi.com/'+textInput.current.value+'/math?json')
           <button type="button" class="btn btn-primary btn-lg" onClick={()=>getdate()}>CLICK</button>
           <div class="card" style={{margin:10,padding:10}}>
   <div class="card-body">
-  <h3 style={{color:"#88dd"}}>{dates}</h3>
+  <h3 style={{color:"#88dd"}}>{dates}</h3> 
   </div>
 </div>
     <div>
