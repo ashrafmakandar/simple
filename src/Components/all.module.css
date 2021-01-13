@@ -1,0 +1,127 @@
+.full{
+    widows: 100%;
+   
+ 
+}
+.alls{
+ 
+   margin: 20px;
+   height: 100%;
+   width: 100%;
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-image: url("https://freellustrustrations.s3.us-east-2.amazonaws.com/free-images/freeimg_50784249freejpg850.jpg");
+} 
+
+.imgs{
+    height:610px;
+
+}
+.conat{
+   
+    width: 300px;
+    height: 450px; 
+    white-space: normal;
+    display:flex;
+    float: left;
+    margin: 20px;
+    color: rgb(14, 14, 13);
+    
+    font-weight: 800;
+    
+ font-family: 'Times New Roman', Times, serif;
+}
+.fll{
+    float: left;
+    margin: 20px;
+    width: 300px;
+    height: 450px; 
+    white-space: normal;
+    display:flex;
+    float: left;
+    margin: 20px;
+    color: rgb(2, 2, 2);
+    
+    font-weight: 400;
+    
+ font-family: 'Times New Roman', Times, serif;
+}
+.nan{
+      color: rgb(10, 10, 10);
+    
+      font-weight: 600; 
+ left: 80px;
+ font-family: 'Times New Roman', Times, serif;
+
+ top: 20px;
+      position: relative;
+}
+.nin{
+    color: rgb(10, 10, 10);
+    top: 80px;
+    margin-top: 40px;
+    position: relative;
+    left: 12px;
+    
+    font-weight: 600;
+    
+}
+.contact{
+    float: left;
+    top: 100px;
+    color: rgb(12, 12, 12);
+    margin-top: 150px;
+    
+    font-weight: 600;
+    position: relative;
+}
+.news{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    color: rgb(7, 7, 7);
+    position: relative;
+    top: 40px;
+    left: 150px;
+    
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+.newshead{
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    color: rgb(13, 13, 14);
+    position: relative;
+    top: 40px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+    left: 150px;
+}
+.footers{
+background: rgb(214, 187, 231);
+height: 60px;
+margin-top: 250px;
+
+
+
+}
+.foottext{
+  padding: 12px;float: left;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  color: aliceblue;
+  font-weight: 800;
+  margin-left: 50px;
+}
+.footletf{
+    padding: 12px;float: right;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: aliceblue;
+font-weight: 800;
+margin-right: 50px;
+
+
+}

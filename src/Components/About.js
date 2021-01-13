@@ -1,10 +1,15 @@
 import React from 'react'
-
+import { useLocation,useHistory } from "react-router-dom";
 export default function About() {
+    const location = useLocation();
+    const history= useHistory();
+    const myparam = location.state.names;
+    const myparam2 = location.state.values;
     return (
         <div>
             <h1>About</h1>
-            <img src="https://images.unsplash.com/photo-1553835973-dec43bfddbeb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="img-fluid" /> >..
+            <h3 onClick={history.goBack}>{myparam2}   {myparam}</h3>
+            <img src="https://images.unsplash.com/photo-1553835973-dec43bfddbeb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" class="img-fluid" />
         
 
 <p>Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.

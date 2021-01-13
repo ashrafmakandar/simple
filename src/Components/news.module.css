@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@900&family=Yeon+Sung&display=swap');
+.rows{
+}
+.newsdata{
+    color: snow;
+    padding: 20px;
+    margin: 10px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-style:inherit;
+    align-self: start;
+    text-emphasis-color: "#aaaddd";
+    border-radius: 10px;
+ 
+    background:rgb(70, 233, 124)
+ 
+  
+  
+}
+.contain{
+background:rgb(231, 233, 238);
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+display: flex;
+flex-wrap: wrap;
+font-weight: 800;
+margin: 10px;
+border-radius: 10px;
+font-stretch: extra-expanded;
+
+    
+}
+.newtitle{
+    margin:2px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.text{
+    margin-right: 20px;
+    padding: 10px;
+}
+.email{
+    margin-right: 20px;
+    padding: 10px;
+}
+.click{
+   
+    flex-wrap: wrap;
+    width: 200%;
+}
+.label{
+    margin: 10px;
+    padding: 10px; 
+}
+.labelbrn{
+    display: block;
+    margin-left: 160px;
+    width: 10%;
+border:solid;
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    
+float: left;
+flex-wrap: wrap;
+ 
+
+}
+.input{
+    border-width: 1px;
+    border-radius: 5px;
+width: 20%;
+    padding: 10px;
+font-family: 'Franklin Gothic Medium';
+    border-color: black;
+    color: rgb(24, 34, 179);
+}
+.forgot{
+float: left;
+flex-wrap: wrap;
+margin-left: 10px;
+margin-top: 10px;
+font-size: 15px;
+font-weight: 200;
+font-family: 'Lucida Sans';
+color:cadetblue
+}
+.check{
+    margin-left: 160px;
+}
+.cbox{
+    margin-top: 5px;
+    
+    margin-right: 5px;
+    
+font-weight: 200;
+font-family: 'Lucida Sans';
+color:blue
+
+}
+.box{
+    margin-top: 5px;
+    margin-right: 5px;
+    
+}
+.foot{
+    position:absolute;
+left:0;
+bottom:0;
+right:0;
+margin: 10px;
+display: block;
+background:paleturquoise;
+flex-wrap: wrap;
+
+border-radius: 10px;
+margin: 10px   ;
+
+
+}
+.footer{
+float: left;
+    color: black;
+    font-weight:300;
+    font-size: 25px;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+ font-family:cursive;
+}
+.foter{
+    float: right;
+    color: black;
+    font-weight:300;
+    font-size: 25px; 
+    flex-wrap: wrap;  
+    margin: 10px;
+    padding: 10px; 
+    font-family:cursive
+}

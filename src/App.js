@@ -7,6 +7,12 @@ import  './bootstrap.min.css'
 import Reqres from './Components/Reqres.js'
 import Login from './Components/Login';
 import Number from './Components/Number';
+import Countries from './Components/Countries';
+import fbi from './Components/Fbi';
+import Fbi from './Components/Fbi';
+import Pages from './Components/Pages';
+import Learn from './Components/Learn';
+import All from './Components/All';
 function App() {
   return (
  <div>
@@ -33,7 +39,21 @@ function App() {
         <li class="nav-item">
           <a class="nav-link" href="/number">Number</a>
         </li>
-      
+        <li class="nav-item">
+          <a class="nav-link" href="/count">Countries</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/fbi">firebase</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/pages">Pagination</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/learn">Learn</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/All">All</a>
+        </li>
        
       </ul>
       
@@ -48,6 +68,11 @@ function App() {
                 <Route path="/contact" component={Contact} />    
                 <Route path="/login" component={Login} /> 
                 <Route path="/number" component={Number} /> 
+                <Route path="/count" component={Countries}/>
+                <Route path="/fbi" component={Fbi}/>
+                <Route path="/pages" component={Pages}/>
+                <Route path="/learn" component={Learn}/>
+                <Route path="/All" component={All}/>
                 </Switch>
 
  
