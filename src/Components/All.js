@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import {useHistory,useLocation} from 'react-router-dom'
 import styles from  './all.module.css'
-
+import Zoom from 'react-reveal/Zoom'
 export default function All() {
     const [user,setUser]= useState([]);
     const [val,setVal]= useState([]);
@@ -34,7 +34,18 @@ export default function All() {
 getall()
     },[])
     return (
-        <div style={{margin:15}} className={styles.alls}>
+      <Zoom>
+
+<div style={{margin:15}} className={styles.alls}>
+<div>
+<h2 className=
+{styles.Blog}>Blog</h2>
+
+</div>
+
+
+        
+
         <table class="table table-bordered">
         <tr >
        <th style={{margin:10,padding:10,color:"#fff" ,fontWeight:900}}><h4>Name</h4></th>
@@ -57,18 +68,25 @@ getall()
 
    <div className={styles.imgs}>
 <div className={styles.conat}>
+<Zoom>
 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+
+</Zoom>
 
 </div>
 <div className={styles.conat}>
+<Zoom>
 <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
 
 The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
 
+</Zoom>
+
 </div>
 <div className={styles.fll}>
+<Zoom>
 <div className={styles.nan}>
 <h3>Our Motto</h3>
 
@@ -78,9 +96,12 @@ The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for t
 
 
 </div>
+</Zoom>
+
 
 </div>
 <div className={styles.conatct}>
+<Zoom>
 <h3 className={styles.newshead}>Contact Us</h3>
 <br></br>
 <div className={styles.news}>
@@ -96,6 +117,8 @@ Mankato Mississippi 96522
 (257) 563-7401</p>
 
 </div>
+</Zoom>
+
 </div>
 
 
@@ -111,5 +134,10 @@ Mankato Mississippi 96522
 <p className={styles.footletf}>All Rights Reserved</p>
 </div>          
         </div>
+
+
+      </Zoom>
+
+   
     )
 }

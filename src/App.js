@@ -13,6 +13,9 @@ import Fbi from './Components/Fbi';
 import Pages from './Components/Pages';
 import Learn from './Components/Learn';
 import All from './Components/All';
+import Newlist from './Components/Newlist';
+import Insert from './Components/Insert';
+import Updated from './Components/Updated';
 function App() {
   return (
  <div>
@@ -54,7 +57,12 @@ function App() {
         <li class="nav-item">
           <a class="nav-link" href="/All">All</a>
         </li>
-       
+        <li class="nav-item">
+          <a class="nav-link" href="/Newlist">NEWLIST</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/post">post</a>
+        </li>
       </ul>
       
     </div>
@@ -73,6 +81,9 @@ function App() {
                 <Route path="/pages" component={Pages}/>
                 <Route path="/learn" component={Learn}/>
                 <Route path="/All" component={All}/>
+                <Route path="/Newlist" component={Newlist}/>
+                <Route path="/post" component={Insert}/>
+          <Route path="/update" component={Updated}/>
                 </Switch>
 
  

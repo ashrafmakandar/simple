@@ -100,7 +100,7 @@
     left: 150px;
 }
 .footers{
-background: rgb(214, 187, 231);
+background:rgb(146,88,139);
 height: 60px;
 margin-top: 250px;
 
@@ -124,4 +124,10 @@ font-weight: 800;
 margin-right: 50px;
 
 
+}
+.Blog{
+
+
+align-items: center;
+margin:10px
 }

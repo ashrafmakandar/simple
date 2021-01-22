@@ -3,7 +3,7 @@ import styles from './news.module.css'
 import { useHistory ,useLocation} from 'react-router-dom';
 import axios from 'axios'
 
-
+import Zoom from 'react-reveal/Zoom'
 export default function Learn() {
 
     let name= React.useRef();
@@ -31,9 +31,13 @@ history.push('/pages')
      
     }
     return (
-        <div className={styles.rows}>
+        <Zoom>
+    <div className={styles.rows}>
            <div>
+         
+
            <h1 className={styles.newsdata}>Simple Website </h1>
+          
 <div className={styles.contain}>
 <h3 className={styles.newtitle}>Welcome</h3>
 
@@ -77,5 +81,8 @@ className={styles.foot}>
 
         
         </div>
+
+        </Zoom>
+    
     )
 }
