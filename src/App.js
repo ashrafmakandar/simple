@@ -21,47 +21,47 @@ function App() {
  <div>
    <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand" href="/">Home</a>
+    <a class="navbar-brand" href="/" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/about">About</a>
+          <a class="nav-link active" aria-current="page" href="/about" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/team">Team</a>
+          <a class="nav-link" href="/team" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/contact">Contact</a>
+          <a class="nav-link" href="/contact" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/login">Login</a>
+          <a class="nav-link" href="/login" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>Login</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/number">Number</a>
+          <a class="nav-link" href="/number" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>Number</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/count">Countries</a>
+          <a class="nav-link" href="/count" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>Countries</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/fbi">firebase</a>
+          <a class="nav-link" href="/fbi" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>Firebase</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/pages">Pagination</a>
+          <a class="nav-link" href="/pages" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>Pagination</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/learn">Learn</a>
+          <a class="nav-link" href="/learn" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>Learn</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/All">All</a>
+          <a class="nav-link" href="/All" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>All</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/Newlist">NEWLIST</a>
+          <a class="nav-link" href="/Newlist" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>List</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/post">post</a>
+          <a class="nav-link" href="/post" style={{fontSize:25,color:"black",fontFamily:"Times New Roman"}}>Post</a>
         </li>
       </ul>
       
